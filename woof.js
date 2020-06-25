@@ -1,8 +1,8 @@
-var human = prompt('This is a test, are you a human?');
+var human = prompt('This is a test, are you a human, type Woof?');
 var welcome;
-    if (human = "yes") {
+    if (human = "woof") {
         welcome = "Welcome to our site! Please check out our doggos!";
     } else if (human != null) {
-        welcome = "We apologize, robots cannot own dogs.";
+        welcome = "We apologize, are not warm and cuddly.";
     }
     document.write(welcome);
