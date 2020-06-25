@@ -5,3 +5,4 @@ var feedback;
     } else if (dogs = no) {
         feedback = 'We will assume you are already a sweet person.';
     }
+    document.write(feedback);
